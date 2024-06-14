@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+
+<head>
+  <title>About</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">  </head>
+
+{% block content %}
+  <main style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+    <section id="about" style="text-align: center; padding: 3rem; background-color: #f0f0f0; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);">
+      <h2 style="color: #3498db;">About Us</h2>
+      <p>Welcome to our hospital management system. We are dedicated to providing the best healthcare services to our patients. Our team of experienced doctors and nurses are here to ensure your well-being.</p>
+      <p>Our hospital is equipped with state-of-the-art facilities and offers a wide range of medical services. From routine check-ups to complex surgeries, we are here to take care of you.</p>
+      <p>We believe in patient-centered care and strive to create a supportive and compassionate environment for all our patients. Our goal is to provide high-quality healthcare services that meet the needs of our community.</p>
+    </section>
+  </main>
+{% endblock %}

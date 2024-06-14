@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+
+<head>
+<title>
+Contact Us
+</title>
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+{% block content %}
+  
+  <main style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+
+    <section id="contact" style="text-align: center; padding: 3rem; background-color: #e0e0e0; margin-top: 4rem; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);">
+      <h2 style="color: #3498db;">Contact Us</h2>
+      <p>We'd love to hear from you! Feel free to reach out using the information below or fill out the contact form (**form needs to be implemented**).</p>
+      <p><b>Address:</b> [Your Hospital Address Here]</p>
+      <p><b>Phone:</b> [Your Hospital Phone Number Here]</p>
+      <p><b>Email:</b> [Your Hospital Email Here]</p>
+    </section>
+  </main>
+{% endblock %}
